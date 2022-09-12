@@ -1,0 +1,20 @@
+{
+  "name": "brightmilepoc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cy:Login": "npx cypress run --spec cypress/Integration/Tests/Login.spec.js --headed --browser chrome",
+    "cy:inviteDriver": "npx cypress run --spec cypress/Integration/Tests/inviteDriver.spec.js --headed --browser chrome"
+  },
+  "author": "Shweta Naik",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.3.6",
+    "cypress": "^10.6.0",
+    "cypress-file-upload": "^5.0.8",
+    "cypress-iframe": "^1.0.1",
+    "cypress-mochawesome-reporter": "^3.2.2",
+    "cypress-xpath": "^2.0.1"
+  }
+}
