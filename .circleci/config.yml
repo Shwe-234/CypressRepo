@@ -1,13 +1,9 @@
 # to use orbs, must use version >= 2.1
-version: 2.1 
+version: 2.1
 orbs:
   # import Cypress orb by specifying an exact version x.y.z
   # or the latest version 1.x.x using "@1" syntax
-<<<<<<< HEAD
   cypress: cypress-io/cypress@2
-=======
-  cypress: cypress-io/cypress@10 
->>>>>>> cd52231ec96221ba46fc950b3a173a8d219c8a61
 workflows:
   build:
     jobs:
